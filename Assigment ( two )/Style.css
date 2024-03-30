@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* *** content*** */
+.b-main {
+  padding: 0 101px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+.b-m {
+  height: 480px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: black;
+  font-weight: 500;
+  padding: 39px;
+  line-height: 41px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: -30px 8px 75px 8px rgba(67, 43, 79, 0.75);
+}
+.lh-10 {
+  line-height: 10px;
+}
+.mr-a {
+  margin-right: 10px;
+  color: green;
+}
+.m {
+  margin-right: 23px;
+  color: green;
+}
+
+.c2 {
+  color: rgb(110, 118, 129);
+}
+.ab-2 {
+  color: rgb(230, 237, 243);
+}
+
+.h5-mk {
+  font-size: 24px !important;
+  line-height: 28px !important;
+  font-weight: 700 !important;
+  padding-bottom: 32px !important;
+  margin-top: 35px;
+}
+.square {
+  background: url(images/square-pattern.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 24px 60px 24px;
+}
+.c3 {
+  color: rgb(13, 17, 23) !important;
+}
+.h1-b {
+  font-size: 64px;
+  line-height: 68px;
+  margin-bottom: 48px;
+  font-weight: 790;
+}
+.c4 {
+  color: rgb(9, 105, 218);
+}
+.c5 {
+  color: rgb(110, 119, 129);
+}
+#main h1{
+  font-size: 4rem; 
+  text-align: left ; 
+  padding: 1rem 20rem;
+}
+@media (max-width: 768px) {
+ 
+  #text-content h1{
+    font-size: 1.9rem;
+    padding: 0 0.5rem; 
+  }
+  .fs-4 {
+    font-size: 1.5rem; 
+  }
+  .d-grid{
+    padding: 0 1.9rem;
+    font-size: 1rem;
+  }
+}
+
+.map {
+    background-image: url(./images/square-pattern.jpg);
+    background-repeat: no-repeat;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 3px black;
+    max-width: 50%; 
+} 
+@media only screen and (max-width: 600px) {
+    #main {
+     display: inline;
+     height:20px;
+    }
+  }
